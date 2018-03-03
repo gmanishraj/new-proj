@@ -1,5 +1,6 @@
 package basic;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -14,6 +15,7 @@ public class Openbrowser {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://raghu-pc/login.do");
+		driver.findElement(By.name("username"));
 		
 
 	}
