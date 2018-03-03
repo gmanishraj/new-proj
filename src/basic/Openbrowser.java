@@ -16,7 +16,7 @@ public class Openbrowser {
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://raghu-pc/login.do");
 		driver.findElement(By.name("username"));
-		
+		driver.findElement(By.name("pwd"));
 
 	}
 
